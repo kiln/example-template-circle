@@ -1,9 +1,7 @@
 id: circle
 name: Circle
 author: Flourish team
-sdk_version: 2
-autoheight: 1x1
-
+sdk_version: 3
 settings:
   - property: radius
     name: Radius
@@ -11,13 +9,12 @@ settings:
     description: The radius of the circle
   - property: stroke
     name: Stroke
-    description: The thickness of the circle’s border, between 0 and 5
+    description: 'The thickness of the circle’s border, between 0 and 5'
     type: number
   - property: color
     name: Color
     description: The color of the circle
     type: color
-
 build:
   javascript:
     script: npm run build
